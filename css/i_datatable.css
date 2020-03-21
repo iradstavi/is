@@ -65,6 +65,7 @@
   }
   table.dataTable tbody th,
   table.dataTable tbody td {
+    font-family: Arial, Helvetica, sans-serif;
     padding: 8px 10px;
   }
   table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
@@ -94,10 +95,11 @@
     background-color: #acbad4;
   }
   table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
-    background-color: #f6f6f6;
+    background-color: #f4fabb;
+    font-weight: bold;
   }
   table.dataTable.hover tbody tr:hover.selected, table.dataTable.display tbody tr:hover.selected {
-    background-color: #aab7d1;
+    background-color: #f4fabb;
   }
   table.dataTable.order-column tbody tr > .sorting_1,
   table.dataTable.order-column tbody tr > .sorting_2,
